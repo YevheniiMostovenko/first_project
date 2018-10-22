@@ -1,26 +1,31 @@
 body {
     font: 10px/20px Arial, sans-serif;
     width: 100%;
+    margin: 0;
+    display: inline-block;
 }
 .wrapper {
     width: 100%;
-    height:7000px;
+    height:100%;
     margin:  auto auto;
 }
 .header {
-    width: 100%;
-    padding: 40px 2.5% 40px 2.5%;
-    background: black;
+    padding: 86px 2.5% 40px 2.5%;
     overflow: auto;
+    background: url(../images/background.gif);
 }
 .body {
-    width: 100%;
-    background: #475D41;
+    background: white;
     height: 500px;
-    padding: 40px 2.5% 40px 2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    font-size: 20px;
+    text-align: center;
 }
 .footer { 
-    width: 100%;
     padding: 10px 0 10px 0;
     background: black;
     padding: 40px 2.5% 40px 2.5%;
@@ -40,31 +45,29 @@ body {
 }
 .logo {
     float: left;
-    width: 30%;
-    margin-left: 5px;
-    
-
+    width: 23%;
+    margin-left: 4px;
 }
 
 .head_menu {
+    background: black;
+    opacity: 1.2;
     position: fixed;
+    padding: 20px 30px 40px 50px; 
     width: 100%;
     text-align: center;
 }
-.head_menu ul {
-}
 .head_menu div {
     display: inline-block;
+    margin-right: 15px;
 }
 .head_menu div a {
     color: white;
-    
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     text-decoration:  none;
-
 }
-.head_menu ul li a:hover {
+.head_menu div a:hover {
     text-decoration: underline;
     color: grey;
 }
