@@ -10,9 +10,9 @@ body {
     margin:  auto auto;
 }
 .header {
-    padding: 86px 2.5% 40px 2.5%;
+    padding: 120px 7% 60px 7%;
     overflow: auto;
-    background: url(../images/background.gif);
+    background: url(../images/background.png);
 }
 .body {
     background: white;
@@ -50,10 +50,10 @@ body {
 }
 
 .head_menu {
-    background: black;
+    background: #004883;
     opacity: 1.2;
     position: fixed;
-    padding: 20px 30px 40px 50px; 
+    padding: 20px 30px 8px 50px; 
     width: 100%;
     text-align: center;
 }
@@ -62,7 +62,7 @@ body {
     margin-right: 15px;
 }
 .head_menu div a {
-    color: white;
+      color: #fff;
     font-weight: bold;
     font-size: 30px;
     text-decoration:  none;
