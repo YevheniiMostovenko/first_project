@@ -9,11 +9,54 @@ body {
     height:100%;
     margin:  auto auto;
 }
+.logo_text{
+    float: left;
+    margin-left: 10px;
+}
+.logo_head{
+    float: left;
+    margin-left: 10px;
+}
+.head_menu {
+    background: #004883;
+    opacity: 0.97;
+    position: fixed;
+    padding: 15px 20px 8px 5px; 
+    width: 100%;
+    text-align: center;
+}
+.head_menu div {
+    display: inline-block;
+    margin-right: 15px;
+}
+.head_menu div a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:  none;
+    font-family: Comic Sans MS, Georgia;
+}
+.head_menu div a:hover {
+    color: #a3a8ad;
+}
 .header {
     padding: 120px 7% 60px 7%;
     overflow: auto;
     background: url(../images/background.png);
 }
+.logo a {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    
+}
+.logo {
+    float: left;
+    width: 23%;
+    margin-left: 4px;
+}
+
 .body {
     background: white;
     height: 500px;
@@ -32,43 +75,8 @@ body {
     padding: 120px 2.5% 120px 2.5%;
 }
 .footer p {
-    
     color: white;
     font-weight: bold;
     font-size:  12px;
+    padding: 0px 2.5% 0px 2.5%;
 } 
-.logo a {
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-    display: inline;
-    
-}
-.logo {
-    float: left;
-    width: 23%;
-    margin-left: 4px;
-}
-
-.head_menu {
-    background: #004883;
-    opacity: 1.2;
-    position: fixed;
-    padding: 20px 30px 8px 50px; 
-    width: 100%;
-    text-align: center;
-}
-.head_menu div {
-    display: inline-block;
-    margin-right: 15px;
-}
-.head_menu div a {
-      color: #fff;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration:  none;
-}
-.head_menu div a:hover {
-    text-decoration: underline;
-    color: grey;
-}
