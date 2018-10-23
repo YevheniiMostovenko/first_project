@@ -9,33 +9,41 @@ body {
     height:100%;
     margin:  auto auto;
 }
-.header {
-    padding: 86px 2.5% 40px 2.5%;
-    overflow: auto;
-    background: url(../images/background.gif);
+.logo_text{
+    float: left;
+    margin-left: 10px;
 }
-.body {
-    background: white;
-    height: 500px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1200px;
-    font-size: 20px;
+.logo_head{
+    float: left;
+    margin-left: 10px;
+}
+.head_menu {
+    background: #004883;
+    opacity: 0.97;
+    position: fixed;
+    padding: 15px 20px 8px 5px; 
+    width: 100%;
     text-align: center;
 }
-.footer { 
-    padding: 10px 0 10px 0;
-    background: black;
-    padding: 40px 2.5% 40px 2.5%;
+.head_menu div {
+    display: inline-block;
+    margin-right: 15px;
 }
-.footer p {
-    
-    color: white;
+.head_menu div a {
+    color: #fff;
     font-weight: bold;
-    font-size:  12px;
-} 
+    font-size: 20px;
+    text-decoration:  none;
+    font-family: Comic Sans MS, Georgia;
+}
+.head_menu div a:hover {
+    color: #a3a8ad;
+}
+.header {
+    padding: 120px 7% 60px 7%;
+    overflow: auto;
+    background: url(../images/background.png);
+}
 .logo a {
     font-size: 24px;
     color: white;
@@ -49,25 +57,26 @@ body {
     margin-left: 4px;
 }
 
-.head_menu {
-    background: black;
-    opacity: 1.2;
-    position: fixed;
-    padding: 20px 30px 40px 50px; 
-    width: 100%;
+.body {
+    background: white;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    font-size: 20px;
     text-align: center;
 }
-.head_menu div {
-    display: inline-block;
-    margin-right: 15px;
+.footer { 
+
+    background: black;
+    margin-top: 3px;
+    padding: 110px 2.5% 120px 2.5%;
 }
-.head_menu div a {
+.footer p {
     color: white;
     font-weight: bold;
-    font-size: 30px;
-    text-decoration:  none;
-}
-.head_menu div a:hover {
-    text-decoration: underline;
-    color: grey;
-}
+    font-size:  12px;
+    padding: 0px 2.5% 0px 2.5%;
+} 
