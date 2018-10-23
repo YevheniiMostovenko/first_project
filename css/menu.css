@@ -1,5 +1,5 @@
 body {
-    font: 10px/20px Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     margin: 0;
     display: inline-block;
@@ -9,41 +9,61 @@ body {
     height:100%;
     margin:  auto auto;
 }
-.logo_text{
+.logo_head {
+    float: left;
+    margin-left: 25px;
+    padding: 6px 5px 17px 0;
+}
+.logo_text {
     float: left;
     margin-left: 10px;
+    padding: 14px 40px 17px 0px;
 }
-.logo_head{
-    float: left;
-    margin-left: 10px;
-}
+
 .head_menu {
     background: #004883;
     opacity: 0.97;
     position: fixed;
-    padding: 15px 20px 8px 5px; 
+    top: 0;
+    padding: 0 20px 0 5px; 
     width: 100%;
-    text-align: center;
+    height: 55px;
+    text-align: right;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
 }
-.head_menu div {
-    display: inline-block;
-    margin-right: 15px;
+.head_menu .right-menu {
+    float: right;
+    padding: 0;
+    display: flex;
+}
+.head_menu .right-menu div {
+    width: max-content;
+    height: 99%;
+    padding: 17px 40px;
+    border-left: 1px solid #5b7992; height: 20px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.head_menu .right-menu div:hover {
+    color: #a3a8ad;
+    background-color: ##F0F2F3; 
+}
+.head_menu .right-menu div:hover > a {
+    color: #a3a8ad;
 }
 .head_menu div a {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
     text-decoration:  none;
-    font-family: Comic Sans MS, Georgia;
 }
-.head_menu div a:hover {
-    color: #a3a8ad;
-}
-.header {
-    padding: 120px 7% 60px 7%;
-    overflow: auto;
-    background: url(../images/background.png);
-}
+/*.header {
+    height: 180px;
+    background-size: cover;
+    background-image: url(../images/background.png);
+}*/
 .logo a {
     font-size: 24px;
     color: white;
@@ -57,22 +77,21 @@ body {
     margin-left: 4px;
 }
 
-.body {
-    background: white;
-    height: 500px;
+.main {
+    min-height: 100vh;
     padding-left: 10%;
     padding-right: 10%;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1200px;
+    padding-top: 60px;
     font-size: 20px;
     text-align: center;
 }
 .footer { 
-    padding: 10px 0 10px 0;
-    background: url(../images/Footer1.png);
+    /*background: url(../images/Footer1.png); */
+    background: #004883;
     background-repeat: no-repeat;
-    padding: 120px 2.5% 120px 2.5%;
+    padding: 110px 2.5% 120px 2.5%
 }
 .footer p {
     color: white;
