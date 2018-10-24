@@ -35,7 +35,7 @@ body {
     padding: 0;
     display: flex;
 }
-.head_menu .right-menu div {
+.head_menu .right-menu a {
     width: max-content;
     height: 99%;
     padding: 17px 40px;
@@ -43,13 +43,13 @@ body {
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
-.head_menu .right-menu div:hover {
-    color: #a3a8adad;
+.head_menu .right-menu a:hover {
+    color: #a3a8ad;
     background-color: #065c9e; 
 }
-.head_menu .right-menu div:hover > a {
+/*.head_menu .right-menu div:hover > a {
     color: #a3a8ad;
-}
+}*/
 .head_menu div a {
     color: #fff;
     font-weight: bold;
@@ -57,20 +57,41 @@ body {
     text-decoration:  none;
 }
 .header {
+    background-attachment: fixed;
     background-size: cover; 
     background-image: url(../images/header.png);
     height: 760px;
 }
 .header_background {
-    background-attachment: fixed;
-    background: linear-gradient(178deg, #00488300 0%,#24578247 35%,#528aea91 93%, #E7F5FF 3%);
+    background: linear-gradient(178deg, #004883 0%,#0048838c 35%,#004883 93%, #E7F5FF 3%);
     height: 100%;
 }
-.header_info {
-
+.header-info {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
 }
-.head_button {
-
+.header-info h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+.header-logo img {
+    width: 200px;
+}
+.header-button {
+    padding-top: 30px;
+}
+.header-button a {
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(#2273ff 35%,#004883 93%);
+    padding: 15px 60px;
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.header-button a:hover {
+    background: linear-gradient(#004883 35%,#2273ff 93%);
 }
 .logo a {
     font-size: 24px;
@@ -141,7 +162,7 @@ body {
     margin-right: 5px;
     margin-bottom: 0px;
 }
-.social_footer a:hover{
+.social_footer a:hover {
     color:#a3a8ad;
     opacity: 0.7;
     -webkit-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
