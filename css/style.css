@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    background: #E7F5FF;
+    overflow-x: hidden;
+}
+.head-menu {
+    background: #004883;
+    opacity: 0.97;
+    position: fixed;
+    top: 0;
+    padding: 0 20px 0 0px; 
+    width: 100%;
+    height: 55px;
+    text-align: right;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.57);
+}
+.logo-head {
+    float: left;
+}
+.logo-head a {
+    display: inline-flex;
+    padding: 6px 0px 0px 20px;
+}
+.logo-text {
+    float: left;
+    margin-left: 15px;
+    padding: 8px 40px 17px 0px;
+
+}
+.logo-head a:hover {
+     color: #a3a8adad;
+    background-color: #065c9e;
+}
+
+.head-menu .right-menu {
+    float: right;
+    padding: 0;
+    display: flex;
+}
+.head-menu .right-menu a {
+    width: max-content;
+    height: 99%;
+    padding: 17px 40px;
+    border-left: 1px solid #5b7992; height: 20px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.head-menu .right-menu a:hover {
+    color: #a3a8adad;
+    background-color: #065c9e; 
+}
+.head-menu div a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:  none;
+}
+.header {
+    background-size: cover; 
+    background-image: url(../images/header.png);
+    height: 760px;
+    background-attachment: fixed;
+}
+.header-background {
+    background: linear-gradient(178deg, #052f52d6 0%,#08148cd1 35%,#01235dd9 93%, #E7F5FF 3%);
+    height: 100%;
+}
+.header-info {
+    text-align: center;
+    padding-top: 235px;
+    color: white;
+}
+.header-logo img {
+    width: 150px;
+}
+.logo a {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    
+}
+.logo {
+    float: left;
+    width: 23%;
+    margin-left: 4px;
+}
+.header-button a {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background: linear-gradient(to top, #064c86,#3287ce);
+    padding: 14px 40px;
+    -webkit-box-shadow: -5px 16px 79px 3px rgba(0,0,0,0.54);
+    -moz-box-shadow: -5px 16px 79px 3px rgba(0,0,0,0.54);
+    box-shadow: -5px 16px 79px 3px rgba(0,0,0,0.54);
+    -webkit-border-radius: 10px;
+    font-weight: 600; 
+
+}
+.header-button a:hover {
+    background: linear-gradient(to top, #3287ce,#064c86);
+}
+.header h2 {
+    margin-bottom: 45px;
+}
+.main {
+    min-height: 100%;
+    padding-top: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.main h2 {
+    color: #064c86;
+    font-size: 40px;
+}
+.main section {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 200px 10%;
+}
+.main .white-background {
+    background-color: white;
+}
+.main hr.divider {
+    margin: 0;
+}
+.footer { 
+    /*background: url(../images/Footer1.png); */
+    /*background-repeat: no-repeat; */
+    background: #004883;
+    background-size: 100%;
+    margin-bottom: -4px;
+}
+.cut-top {
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-right: 30px solid #004883;
+    border-right-width: 100vw;
+        margin-top: -80px;
+}
+.footer-copyright {
+    color: white;
+    display: inline-flex;
+    font-weight: bold;
+    font-size:  15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+}
+.social-footer {
+    padding-top: 16px;
+    float:right;
+    color:grey;
+    display: inline-flex;
+    margin-right: 70px;
+    /* background-color: grey; */
+    /* border-radius: 10px; */
+    margin-bottom: 0;
+    
+}
+.social-footer a {
+    color:#fff;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+.social-footer a:hover{
+    color:#a3a8ad;
+    opacity: 0.7;
+    -webkit-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
+    box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
+
+}
