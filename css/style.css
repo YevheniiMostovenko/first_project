@@ -90,7 +90,7 @@ body {
     width: 23%;
     margin-left: 4px;
 }
-.header-button a {
+.header-button a, #submitbtn {
     color: white;
     text-decoration: none;
     user-select: none;
@@ -103,7 +103,7 @@ body {
     font-weight: 600; 
 
 }
-.header-button a:hover {
+.header-button a:hover, #submitbtn:hover  {
     background: linear-gradient(to top, #3287ce,#064c86);
 }
 .header h2 {
@@ -182,5 +182,66 @@ body {
     -webkit-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     -moz-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
+}
 
+/* Contact us */
+
+/* form styles */
+.feedback {
+    height: 900px;
+    width: 47%;
+    display: inline-block;
+    padding-top: 70px;
+    padding-left: 50px;
+
+}
+form .row {
+    display: block;
+}
+form label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 120px;
+    padding: 6px 0;
+    color: #464646;
+    vertical-align: top;
+}
+form .req 
+{ 
+    color: #ca5354; 
+}
+form .note {
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-weight: normal;
+    padding: 2px 7px;
+}
+form input:focus, form textarea:focus 
+{ 
+    outline: none; 
+}
+.txtarea {
+    height: 195px;
+    width: 466px;
+}
+form .txt {
+    display: inline-block;
+    width: 468px;
+    height: 35px;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: black;
+}
+#submitbtn {
+    width: 475px;
+    border: none;
+}
+.center {
+    padding-top: 10px;
+}
+.gmaps {
+    width: 47%;
+    
+    display: inline-block;
 }
