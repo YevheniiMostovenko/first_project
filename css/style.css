@@ -255,6 +255,7 @@ form .txt {
     text-align: center;
 }
 .D-text {
+<<<<<<< HEAD
     padding-right: 401px;
     text-align: justify;
     padding: 92px 82px;
@@ -280,4 +281,7 @@ margin-bottom: 154px;
  position: relative;
 top: 9px;
 right: -29px;   
+=======
+
+>>>>>>> a30bfee67f8efea1f45541ba59a256cd3c3aed4d
 }
