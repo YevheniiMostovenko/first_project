@@ -242,9 +242,42 @@ form .txt {
 }
 .gmaps {
     width: 47%;
-    
+    position: static;
     display: inline-block;
 }
 .info {
 
+}
+
+.info h2 {
+    color: #064c86;
+    font-size: 40px;
+    text-align: center;
+}
+.D-text {
+    padding-right: 401px;
+    text-align: justify;
+    padding: 92px 82px;
+     position: relative;
+    right:  -31px
+}
+.D-logo {
+ margin-top: 144px;
+ margin-left: 47px;
+ float: left;  
+ width: 402px; 
+}
+.Y-text {
+padding-right: 401px;
+text-align: justify;
+padding: 0px 448px 0px 111px;
+margin-bottom: 154px;
+}
+.Y-logo{
+ margin-right: 47px;
+ float: right;  
+ width: 402px; 
+ position: relative;
+top: 9px;
+right: -29px;   
 }
