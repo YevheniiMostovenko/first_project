@@ -242,9 +242,14 @@ form .txt {
 }
 .gmaps {
     width: 47%;
-    
+    position: static;
     display: inline-block;
 }
 .info {
 
+}
+
+.D-logo, .Y-logo {
+    border-radius: 329px;
+    width: 27%;
 }
