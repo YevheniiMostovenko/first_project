@@ -249,7 +249,11 @@ form .txt {
 
 }
 
-.D-logo, .Y-logo {
-    border-radius: 329px;
-    width: 27%;
+.info h2 {
+    color: #064c86;
+    font-size: 40px;
+    text-align: center;
+}
+.D-text {
+
 }
