@@ -296,11 +296,38 @@ form .txt {
     right: -29px;   
 }
 .photos {
+    width: 100%;
+    margin-top: 40px;
     display: inline-block;
+    padding-bottom: 45px
+}
+.photos img {
+    margin-left: 10px;
+    float: left;
+    border-radius: 35px;
+    border: 4px inset #727272;
+ 
 }
 .photos p {
-    width: 60%;
+    margin-right: 30px;
+    font-size: 16pt;
+    display: flex;
+    text-align: center;
+    padding-left: 170px;
+}
+.photos h1 {
+    padding-left: 170px;
+    text-align: center;
+    display: inline-flex;
+    color: #064c86;
+    font-size: 40px;
+    padding-left: 590px;
+
+    
 }
 .photos .divider {
     width: 100%;
+    display: inline-flex;
+    background-color: #24437e;
+    height: 2px;
 }
