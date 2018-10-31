@@ -137,6 +137,7 @@ body {
     background: #004883;
     background-size: 100%;
     margin-bottom: -5px;
+    height: 100vh;
 }
 .cut-top {
     content: ' ';
