@@ -137,7 +137,6 @@ body {
     background: #004883;
     background-size: 100%;
     margin-bottom: -5px;
-    min-height: 100vh;
 }
 .cut-top {
     content: ' ';
@@ -194,6 +193,7 @@ body {
     display: inline-block;
     padding-top: 70px;
     padding-left: 50px;
+    min-height: 100vh;
 
 }
 form .row {
@@ -288,6 +288,7 @@ form .txt {
     display: inline-flex;
     padding-top: 250px;
     margin-bottom: 89px;
+    min-height: 100vh;
 }
 .info h2 {
     font-size: 30pt;
