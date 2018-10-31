@@ -251,7 +251,8 @@ form .txt {
     width: 100%;
     margin-top: 40px;
     display: inline-block;
-    padding-bottom: 45px
+    padding-bottom: 45px;
+    min-height:100vh;
 }
 .photos img {
     margin-left: 10px;
